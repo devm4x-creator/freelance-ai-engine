@@ -1,0 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect width="512" height="512" rx="96" fill="url(#bgGradient)"/>
+
+  <!-- Robot Head - outer ring -->
+  <ellipse cx="256" cy="168" rx="112" ry="88" fill="none" stroke="white" stroke-width="32"/>
+
+  <!-- Robot Eyes -->
+  <ellipse cx="208" cy="168" rx="24" ry="32" fill="white"/>
+  <ellipse cx="304" cy="168" rx="24" ry="32" fill="white"/>
+
+  <!-- Robot Body/Shoulders -->
+  <path d="M96 352C96 288 160 240 256 240C352 240 416 288 416 352V480H96V352Z" fill="white"/>
+
+  <!-- Tie -->
+  <path d="M256 272L232 304L256 448L280 304L256 272Z" fill="url(#bgGradient)"/>
+</svg>

@@ -1,0 +1,368 @@
+export type Language = 'en' | 'ar';
+
+export const translations = {
+  en: {
+    // Navigation
+    nav: {
+      home: 'Home',
+      dashboard: 'Dashboard',
+      pricing: 'Pricing',
+      features: 'Features',
+      login: 'Login',
+      getStarted: 'Get Started Free',
+      logout: 'Logout',
+    },
+    // Landing Page
+    landing: {
+      badge: 'AI Freelancer - Your AI Business Partner',
+      title: 'Turn Your Skills Into',
+      titleHighlight: 'Real Money',
+      subtitle: 'The ultimate AI platform for Arab freelancers. Generate proposals, create branding, build portfolios, and close more clients — all in Arabic & English.',
+      cta: 'Start Making Money',
+      ctaSecondary: 'See How It Works',
+      trustedBy: 'Trusted by 2,000+ Arab Freelancers',
+      stats: {
+        proposals: 'Proposals Generated',
+        earnings: 'Client Earnings',
+        users: 'Active Users',
+      },
+    },
+    // Features
+    features: {
+      title: 'Everything You Need to',
+      titleHighlight: 'Dominate Freelancing',
+      subtitle: 'Professional tools designed specifically for Arab freelancers to compete globally.',
+      branding: {
+        title: 'Logo & Branding Designer',
+        desc: 'Generate complete brand identities with logos, colors, fonts, and slogans in Arabic & English.',
+      },
+      social: {
+        title: 'Social Media Studio',
+        desc: 'Create viral captions, ad copy, reels scripts, and hashtags for all platforms.',
+      },
+      proposals: {
+        title: 'Proposal Writer',
+        desc: 'Write winning proposals, set pricing packages, and generate cold DM templates.',
+      },
+      portfolio: {
+        title: 'Portfolio Generator',
+        desc: 'Build professional portfolios with case studies and positioning in minutes.',
+      },
+      contracts: {
+        title: 'Contract Generator',
+        desc: 'Generate legal contracts in Arabic & English to protect your work.',
+      },
+    },
+    // Pricing
+    pricing: {
+      title: 'Simple, Transparent',
+      titleHighlight: 'Pricing',
+      subtitle: 'Start free, upgrade when you need more power.',
+      free: {
+        name: 'Free',
+        price: '0',
+        desc: 'Perfect for getting started',
+        features: [
+          '20 generations per month',
+          'Basic branding tools',
+          'Proposal generator',
+          'Community support',
+        ],
+        cta: 'Start Free',
+      },
+      pro: {
+        name: 'Pro',
+        price: '9',
+        priceAlt: '2,000 DZD',
+        desc: 'For serious freelancers',
+        features: [
+          '300 generations per month',
+          'All premium tools',
+          'Contract generator',
+          'Portfolio builder',
+          'Priority support',
+        ],
+        cta: 'Upgrade to Pro',
+        badge: 'Most Popular',
+      },
+      business: {
+        name: 'Business',
+        price: '19',
+        priceAlt: '4,000 DZD',
+        desc: 'For agencies & power users',
+        features: [
+          '1000 generations per month',
+          'All Pro features',
+          'Export to PDF',
+          'API access',
+          'Dedicated support',
+        ],
+        cta: 'Go Business',
+        badge: 'Best Value',
+      },
+    },
+    // Dashboard
+    dashboard: {
+      welcome: 'Welcome back',
+      overview: 'Overview',
+      monthlyGenerations: 'Monthly Generations',
+      totalSaved: 'Total Saved',
+      quickActions: 'Quick Actions',
+      recentOutputs: 'Recent Outputs',
+      roadmap: '7-Day Money Roadmap',
+      roadmapDesc: 'Follow this proven path to earn your first $100',
+      generationsRemaining: 'remaining',
+      currentPlan: 'Current Plan',
+      upgradeForMore: 'Upgrade for more',
+    },
+    // Tools
+    tools: {
+      branding: 'Logo & Branding Designer',
+      landingPage: 'Landing Page Builder',
+      social: 'Social Media Studio',
+      proposals: 'Proposal Writer',
+      portfolio: 'Portfolio Generator',
+      contracts: 'Contract Generator',
+      roadmap: '7-Day Roadmap',
+      history: 'History',
+      settings: 'Settings',
+    },
+    // Common
+    common: {
+      generate: 'Generate',
+      regenerate: 'Regenerate',
+      copy: 'Copy',
+      copied: 'Copied!',
+      save: 'Save',
+      saved: 'Saved!',
+      download: 'Download',
+      export: 'Export PDF',
+      loading: 'Generating...',
+      selectLanguage: 'Output Language',
+      businessType: 'Business Type',
+      targetAudience: 'Target Audience',
+      style: 'Style',
+      tone: 'Tone',
+      niche: 'Niche',
+      goal: 'Goal',
+      platform: 'Platform',
+      pro: 'PRO',
+      free: 'FREE',
+    },
+    // Form Options
+    options: {
+      styles: {
+        modern: 'Modern',
+        minimal: 'Minimal',
+        luxury: 'Luxury',
+        bold: 'Bold',
+        playful: 'Playful',
+        corporate: 'Corporate',
+      },
+      tones: {
+        professional: 'Professional',
+        friendly: 'Friendly',
+        casual: 'Casual',
+        formal: 'Formal',
+        energetic: 'Energetic',
+        darija: 'Darija',
+      },
+      goals: {
+        sales: 'Drive Sales',
+        awareness: 'Brand Awareness',
+        growth: 'Audience Growth',
+        engagement: 'Engagement',
+      },
+      platforms: {
+        instagram: 'Instagram',
+        facebook: 'Facebook',
+        tiktok: 'TikTok',
+        linkedin: 'LinkedIn',
+        twitter: 'X (Twitter)',
+      },
+    },
+  },
+  ar: {
+    // Navigation
+    nav: {
+      home: 'الرئيسية',
+      dashboard: 'لوحة التحكم',
+      pricing: 'الأسعار',
+      features: 'المميزات',
+      login: 'تسجيل الدخول',
+      getStarted: 'ابدأ مجاناً',
+      logout: 'تسجيل الخروج',
+    },
+    // Landing Page
+    landing: {
+      badge: 'محرك الفريلانس بالذكاء الاصطناعي',
+      title: 'حوّل مهاراتك إلى',
+      titleHighlight: 'أموال حقيقية',
+      subtitle: 'منصة الذكاء الاصطناعي للفريلانسرز العرب. اكتب عروض، صمم براندات، وابني بورتفوليو احترافي — بالعربية والإنجليزية.',
+      cta: 'ابدأ الآن',
+      ctaSecondary: 'شاهد كيف يعمل',
+      trustedBy: 'يثق بنا أكثر من 2,000 فريلانسر عربي',
+      stats: {
+        proposals: 'عرض تم توليده',
+        earnings: 'أرباح العملاء',
+        users: 'مستخدم نشط',
+      },
+    },
+    // Features
+    features: {
+      title: 'كل ما تحتاجه',
+      titleHighlight: 'للسيطرة على الفريلانس',
+      subtitle: 'أدوات احترافية مصممة خصيصاً للفريلانسرز العرب للمنافسة عالمياً.',
+      branding: {
+        title: 'مصمم الشعارات والهوية',
+        desc: 'أنشئ هويات بصرية كاملة مع شعارات، ألوان، خطوط، وشعارات بالعربية والإنجليزية.',
+      },
+      social: {
+        title: 'استوديو السوشيال ميديا',
+        desc: 'اكتب كابشنات فيرال، إعلانات، سكربتات ريلز، وهاشتاقات لكل المنصات.',
+      },
+      proposals: {
+        title: 'كاتب العروض',
+        desc: 'اكتب عروض فائزة، حدد أسعارك، وولّد رسائل تواصل باردة.',
+      },
+      portfolio: {
+        title: 'مولد البورتفوليو',
+        desc: 'ابني بورتفوليوهات احترافية مع دراسات حالة في دقائق.',
+      },
+      contracts: {
+        title: 'مولد العقود',
+        desc: 'أنشئ عقود قانونية بالعربية والإنجليزية لحماية عملك.',
+      },
+    },
+    // Pricing
+    pricing: {
+      title: 'أسعار',
+      titleHighlight: 'بسيطة وشفافة',
+      subtitle: 'ابدأ مجاناً، وترقَّ عندما تحتاج قوة أكبر.',
+      free: {
+        name: 'مجاني',
+        price: '0',
+        desc: 'مثالي للبداية',
+        features: [
+          '20 توليد شهرياً',
+          'أدوات البراندنج الأساسية',
+          'مولد العروض',
+          'دعم المجتمع',
+        ],
+        cta: 'ابدأ مجاناً',
+      },
+      pro: {
+        name: 'برو',
+        price: '9',
+        priceAlt: '2,000 د.ج',
+        desc: 'للفريلانسرز الجادين',
+        features: [
+          '300 توليد شهرياً',
+          'كل الأدوات المميزة',
+          'مولد العقود',
+          'منشئ البورتفوليو',
+          'دعم أولوية',
+        ],
+        cta: 'ترقية لبرو',
+        badge: 'الأكثر شعبية',
+      },
+      business: {
+        name: 'بزنس',
+        price: '19',
+        priceAlt: '4,000 د.ج',
+        desc: 'للوكالات والمحترفين',
+        features: [
+          '1000 توليد شهرياً',
+          'كل مميزات برو',
+          'تصدير PDF',
+          'وصول API',
+          'دعم مخصص',
+        ],
+        cta: 'احصل على بزنس',
+        badge: 'أفضل قيمة',
+      },
+    },
+    // Dashboard
+    dashboard: {
+      welcome: 'مرحباً بعودتك',
+      overview: 'نظرة عامة',
+      monthlyGenerations: 'توليدات الشهر',
+      totalSaved: 'إجمالي المحفوظات',
+      quickActions: 'إجراءات سريعة',
+      recentOutputs: 'آخر المخرجات',
+      roadmap: 'خارطة الربح في 7 أيام',
+      roadmapDesc: 'اتبع هذا المسار المثبت لكسب أول 100$',
+      generationsRemaining: 'متبقي',
+      currentPlan: 'الخطة الحالية',
+      upgradeForMore: 'ترقية للحصول على المزيد',
+    },
+    // Tools
+    tools: {
+      branding: 'مصمم الشعارات والهوية',
+      landingPage: 'صانع صفحات الهبوط',
+      social: 'استوديو السوشيال ميديا',
+      proposals: 'كاتب العروض',
+      portfolio: 'مولد البورتفوليو',
+      contracts: 'مولد العقود',
+      roadmap: 'خارطة 7 أيام',
+      history: 'السجل',
+      settings: 'الإعدادات',
+    },
+    // Common
+    common: {
+      generate: 'توليد',
+      regenerate: 'إعادة التوليد',
+      copy: 'نسخ',
+      copied: 'تم النسخ!',
+      save: 'حفظ',
+      saved: 'تم الحفظ!',
+      download: 'تحميل',
+      export: 'تصدير PDF',
+      loading: 'جاري التوليد...',
+      selectLanguage: 'لغة المخرجات',
+      businessType: 'نوع النشاط',
+      targetAudience: 'الجمهور المستهدف',
+      style: 'الأسلوب',
+      tone: 'النبرة',
+      niche: 'التخصص',
+      goal: 'الهدف',
+      platform: 'المنصة',
+      pro: 'برو',
+      free: 'مجاني',
+    },
+    // Form Options
+    options: {
+      styles: {
+        modern: 'عصري',
+        minimal: 'بسيط',
+        luxury: 'فاخر',
+        bold: 'جريء',
+        playful: 'مرح',
+        corporate: 'رسمي',
+      },
+      tones: {
+        professional: 'احترافي',
+        friendly: 'ودود',
+        casual: 'غير رسمي',
+        formal: 'رسمي',
+        energetic: 'حيوي',
+        darija: 'دارجة',
+      },
+      goals: {
+        sales: 'زيادة المبيعات',
+        awareness: 'الوعي بالعلامة',
+        growth: 'نمو الجمهور',
+        engagement: 'التفاعل',
+      },
+      platforms: {
+        instagram: 'انستغرام',
+        facebook: 'فيسبوك',
+        tiktok: 'تيك توك',
+        linkedin: 'لينكد إن',
+        twitter: 'إكس (تويتر)',
+      },
+    },
+  },
+};
+
+export type TranslationType = typeof translations.en;
